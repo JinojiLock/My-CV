@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/css/images/logo.png">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <title>Andrei Zimin CV</title>
+</head>
+<body>
+    <button id="btn-ru">Ru</button>
+    <button id="btn-en">En</button>
+    <header class="header">
+        <div class="header-block"></div>
+        <div class="header-right">
+            <div class="text">            
+                <span class="second-name">Zimin</span>
+                <span class="first-name">Andrei</span>
+            </div>
+            <div class="professia">
+                <span class="name-professia">Web developer</span>
+                <div class="header-line"></div>
+            </div>
+        </div>
+    </header>
+    <section class="static-block">
+        <img src="/css/images/main.jpg" alt="#" class="main-photo">
+        <div class="static-text">
+            <h2 class="generaly-title" target-translation="generaly-title">О себе</h2>
+            <p class="generaly-subtitle" target-translation="generaly-subtitle">Я web-разработчик с опытом работы с Ruby on Rails и навыками в JavaScript. Стремлюсь развивать свои знания в области фронтенд-разработки, в частности с React, для создания интерактивных и динамичных веб-приложений. Имею опыт в настройке и использовании PostgreSQL в рамках проектов на Ruby on Rails, а также в работе с Git для управления версиями и деплоя на Heroku. Работал с адаптивной версткой, CSS-анимированием, использую принципы KISS и DRY в коде. Мой фокус на React и улучшение взаимодействия с пользователем через современные JS-технологии.</p>
+        </div>
+    </section>
+    <aside class="side-menu">
+        <ul>
+            <li><a href="#" data-target="education" target-translation="link1"> Образование </a></li>
+            <li><a href="#" data-target="jobs" target-translation="link2"> Опыт работы</a></li>
+            <li><a href="#" data-target="skills" target-translation="link3"> Навыки</a></li>
+            <li><a href="#" data-target="languages" target-translation="link4"> Языки</a></li>
+            <li><a href="#" data-target="contacts" target-translation="link5"> Контакты</a></li>
+        </ul>
+    </aside>
+    <div class="container">
+        <section id="education" class="content">
+            <div class="main-title">
+                <div class="main-line right-line"></div>
+                <span class="title" target-translation="link1">Образование</span>
+                <div class="main-line"></div>
+            </div>
+            <div class="main-block">
+                <div class="wrapper">
+                    <p class="education-name" target-translation="name1">НИЯУ "МИФИ", Высшее образование</p>
+                    <p class="education-specialist first-child" target-translation="specialist1">Бакалавр, Ядерные фиизика и технологии</p>  
+                    <p class="education-specialist second-child" target-translation="specialist1_1">Вывод из эксплуатации ядерно и радиационно опасных объектов</p>
+                    <a href="/css/сertificate/Bak.pdf" target="_blank" target-translation="link6" class="link link-1">Посмотреть диплом</a>
+                </div>
+                <div class="education-year">2021 - 2024</div>
+            </div>
+            <div class="main-block">
+                <div class="wrapper">
+                    <p class="education-name" target-translation="name2">НИЯУ "МИФИ", Переквалификация</p>
+                    <p class="education-specialist" target-translation="specialist2">Веб-разработка на основе современных свободных фреймворков</p>
+                    <a href="/css/сertificate/IT.pdf" target="_blank" class="link" target-translation="link6">Посмотреть диплом</a>
+                </div>
+                <div class="education-year">2023 - 2024</div>
+            </div>
+        </section>
+        <section id="jobs" class="content">
+            <div class="main-title">
+                <div class="main-line right-line"></div>
+                <span class="title" target-translation="link2">Опыт работы</span>
+                <div class="main-line"></div>
+            </div>
+            <div class="main-block">
+                <div class="wrapper">
+                    <p class="education-name" target-translation="name3">Сайт для репетитора</p>
+                    <a href="https://tutorforstuding-0813c0017362.herokuapp.com" target="_blank" class="link" target-translation="link7">Посмотреть сайт</a>
+                    <a href="https://github.com/JinojiLock/Tutor" target="_blank" class="link" target-translation="link8">Посмотреть на GitHub</a>
+                    <p class="education-specialist first-child" target-translation="first-child1"> <b>Описание:</b> Реализовал одностраничный сайт с использованием Ruby on Rails, включающим адаптивную верстку с помощью Flexbox и Grid. Настроил форму для отправки данных в Telegram с использованием API.</p>
+                    <p class="education-specialist first-child" target-translation="first-child2"><b>Навыки и технологии:</b> Ruby on Rails, HTML, CSS, PostgreSQL, настройка и деплой на Heroku, интеграция с внешними сервисами.</p>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="content">
+            <div class="main-title">
+                <div class="main-line right-line"></div>
+                <span class="title" target-translation="link3">Навыки</span>
+                <div class="main-line"></div>
+            </div>
+            <div class="main-block-skill">
+                <div class="wrapper">
+                    <p class="skill-name">HTML&CSS</p>
+                    <details>
+                        <summary target-translation="summary">Опыт</summary>
+                        <span target-translation="summary-span1">Семантическая разметка, флексбоксы и гриды, адаптивная верстка, медиа-запросы, CSS-анимации, настройка внешнего вида для различных устройств. Разработка одностраничных сайтов с использованием фреймворка Ruby on Rails, включая формы и интеграцию с внешними сервисами, такими как Telegram-бот.</span>
+                    </details>
+                    <div class="status-line skill-1"></div>
+                    <p class="skill-name">JavaScript</p>
+                    <details>
+                        <summary target-translation="summary">Опыт</summary>
+                        <span target-translation="summary-span2">Работа с DOM, создание интерактивных элементов, программное добавление и удаление классов, события, циклы, управление видимостью контента, использование стандартных функций JavaScript для динамического изменения контента на странице.</span>
+                    </details>
+                    <div class="status-line skill-2"></div>
+                    <p class="skill-name">Git</p>
+                    <details>
+                        <summary target-translation="summary">Опыт</summary>
+                        <span target-translation="summary-span3">Создание репозиториев, работа с ветками, слияние и разрешение конфликтов. Публикация кода на GitHub, деплой на Heroku. Опыт работы с ошибками при деплое через Git и Heroku, проверка и исправление ошибок перед развертыванием приложения.</span>
+                    </details>
+                    <div class="status-line skill-3"></div>
+                    <p class="skill-name subskill">Flexbox, Grid, Media Queries</p>
+                    <p class="skill-name subskill" target-translation="subskill1">Настройка и деплой на хостинг</p>
+                    <p class="skill-name subskill" target-translation="subskill2">Работа с GitHub и решение ошибок при деплое</p>
+                </div>
+                <div class="wrapper">
+                    <p class="skill-name">React</p>
+                    <details>
+                        <summary target-translation="summary">Опыт</summary>
+                        <span target-translation="summary-span4">Изучение фреймворка через видеоуроки. Понимание основ работы с компонентами, JSX, состоянием и пропсами, а также основы работы с React-роутингом. Нацелен на развитие и практическую реализацию проектов с использованием React. (Готовность к углубленному изучению)</span>
+                    </details>
+                    <div class="status-line skill-4"></div>
+                    <p class="skill-name">Ruby on Rails</p>
+                    <details>
+                        <summary target-translation="summary">Опыт</summary>
+                        <span target-translation="summary-span5">Создание моделей, миграций, контроллеров, настройка связей между моделями, валидации, маршруты. Реализация формы для отправки данных на почту или в Telegram-бот. Опыт работы с PostgreSQL и SQLite3 в качестве базы данных.</span>
+                    </details>
+                    <div class="status-line skill-5"></div>
+                    <p class="skill-name">PostgreSQL</p>
+                    <details>
+                        <summary target-translation="summary">Опыт</summary>
+                        <span target-translation="summary-span6">Настройка и использование PostgreSQL в проектах на Ruby on Rails. Создание и выполнение SQL-запросов, управление схемой базы данных, настройка миграций и оптимизация работы с данными.</span>
+                    </details>
+                    <div class="status-line skill-6"></div>
+                    <p class="skill-name subskill" target-translation="subskill3">Принципы KISS и DRY</p>
+                    <p class="skill-name subskill" target-translation="subskill4">Создание и настройка форм (интеграция с Telegram)</p>
+                    <p class="skill-name subskill" target-translation="subskill5">Настройка Ubuntu на виртуальной машине и работа в этом окружении</p>
+                </div>
+            </div>
+        </section>
+        <section id="languages" class="content">
+            <div class="main-title">
+                <div class="main-line right-line"></div>
+                <span class="title" target-translation="link4">Языки</span>
+                <div class="main-line"></div>
+            </div>
+            <div class="main-block">
+                <div class="wrapper">
+                    <div class="language-wrapper">
+                        <p class="language-name" target-translation="rus">Русский</p>
+                        <div class="circle-level">
+                            <p class="level">C2</p>
+                        </div>
+                    </div>
+                    <div class="status-line-language language-1"></div>
+                    <div class="language-wrapper">
+                        <p class="language-name" target-translation="eng">Английский</p>
+                        <div class="circle-level">
+                            <p class="level">B2</p>
+                        </div>
+                    </div>
+                    <div class="status-line-language language-2"></div>
+                    <a href="/css/сertificate/EFCertificate.pdf" target="_blank" class="link" target-translation="link9">Посмотреть сертификат</a>
+                </div>
+            </div>
+        </section>
+        <section id="contacts" class="content">
+            <div class="main-title">
+                <div class="main-line right-line"></div>
+                <span class="title" target-translation="link5">Контакты</span>
+                <div class="main-line"></div>
+            </div>
+            <div class="main-block contact-block">
+                <div class="wrapper-contacts">
+                    <ul class="contacts-list">
+                        <li class="contact-item s1">
+                            <i class="fab fa-vk" aria-hidden="true"></i>
+                            <a href="https://vk.com/abad200" target="_blank" class="contact-link" target-translation="link10">ВКонтакте</a></li>
+                        <li class="contact-item s2">
+                            <i class="fab fa-telegram" aria-hidden="true"></i>
+                            <a href="tg://resolve?domain=abad205" target="_blank" class="contact-link">Telegram</a></li>
+                        <li class="contact-item s3">
+                            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                            <a href="https://wa.me/79616319347" target="_blank" class="contact-link">WhatsApp</a></li>
+                        <li class="contact-item s4">
+                            <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                            <a href="https://www.facebook.com/andreu.zimin.3" target="_blank" class="contact-link">Facebook</a></li>
+                        <li class="contact-item s5">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                            <a href="https://github.com/JinojiLock" target="_blank" class="contact-link">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="/JS/script.js"></script>
+</body>
+</html>
